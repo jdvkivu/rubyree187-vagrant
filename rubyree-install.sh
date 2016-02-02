@@ -5,7 +5,6 @@
 echo 'Installing Ruby Enterprise Edition 1.8.7'
 
 # Run this if you need to use rvm
-#source /etc/profile.d/rvm.sh
 source /home/vagrant/.profile
 
 rvm install ree-1.8.7

@@ -5,10 +5,10 @@
 #sudo apt-get update
 
 # Install ncdu
-sudo apt-get install -y ncdu
+sudo apt-get install -y ncdu curl
 
 # Install MySQL
-#/vagrant/mysql-install.sh
+/vagrant/mysql-install.sh
 
 # Install RVM and ruby
 /vagrant/rvm-install.sh
@@ -17,4 +17,4 @@ sudo apt-get install -y ncdu
 /vagrant/rubyree-install.sh
 
 # Install all gems
-#./gems-install.sh
+/vagrant/gems-install.sh
